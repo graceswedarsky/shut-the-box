@@ -204,7 +204,7 @@ endBtn.addEventListener("click", function(){
         if(p1Pts<p2Pts){
             console.log("Player 1 Won");
             winner.textContent = `${value1} won with a total of ${p1Pts} points!`;
-            loser.textContent = `${value2} only had ${p2Pts} points.`;
+            loser.textContent = `${value2} had ${p2Pts} points.`;
             resetBtn.style.display = "block";
         } else if(p2Pts<p1Pts){
             console.log("Player 2 Won");
