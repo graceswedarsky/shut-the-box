@@ -213,7 +213,7 @@ endBtn.addEventListener("click", function(){
             resetBtn.style.display = "block";
         } else{
             console.log("Tied");
-            winner.textContent = `${value1} and ${value2} tied with a total of ${p1Pts} apiece`;
+            winner.textContent = `${value1} and ${value2} tied with a total of ${p1Pts} points apiece.`;
             loser.style.display = "none";
             resetBtn.style.display = "block";
         }
