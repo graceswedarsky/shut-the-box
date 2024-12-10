@@ -1,0 +1,45 @@
+h1, .playerNames, .board, .dice, .dice-grid, .winner{
+    text-align: center;
+}
+.playerNames{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+#reset-btn{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+i{
+    font-size: 50px;
+}
+.turnInfo{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    margin:auto;
+    width: 50%;
+}
+th{
+    margin: auto;
+    text-align: center;
+}
+td{
+    margin: auto;
+    text-align: center;
+}
+.bi-x-square{
+    color: red;
+}
+i{
+    color: navy;
+}
+/* #rollBtn[disabled]{
+    background-color:
+    border-width:
+    border-color:
+    border-style: outset,solid,inset, etc.
+}*/
+
