@@ -198,7 +198,6 @@ endBtn.addEventListener("click", function(){
         dice.style.display = "none";
         diceGrid.style.display = "none";
         board.style.display = "none";
-        scoreCard.style.display = "none";
         winner.style.display = "block";
         loser.style.display = "block";
         if(p1Pts<p2Pts){
